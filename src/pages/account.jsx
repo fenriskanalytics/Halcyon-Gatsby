@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
 import GlobalContextsProvider from "../components/plasmic/copy_of_halcyon_studios/PlasmicGlobalContextsProvider";
 import { UnnamedGlobalGroupOfVariantsContext } from "../components/plasmic/copy_of_halcyon_studios/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants";
-import { PlasmicAccount, Head } from "../components/plasmic/copy_of_halcyon_studios/PlasmicAccount";
+import { PlasmicAccount } from "../components/plasmic/copy_of_halcyon_studios/PlasmicAccount";
 
 const Account = ({ location, path, params }) => {
   useEffect(() => {
